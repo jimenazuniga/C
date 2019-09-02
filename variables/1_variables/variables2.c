@@ -37,3 +37,4 @@ int main()
 	printf("\tEl número %f elevado a la potencia %f en %f\n",a,b,c);
 return 0;
 }
+
