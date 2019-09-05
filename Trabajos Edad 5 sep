@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+    int edad = 0; // declaro e inicializo variable
+	printf("Dime tu edad:\n"); // mando mensaje
+	scanf("%d", &edad); // pido valor
+	
+printf("eres un %s\n",(edad < 3) ? "Joven":"viejito");
+
+if(edad < 3){
+        printf("\tEres un bebe\n");
+    }else{
+        printf("Ya no eres un bebe");}
+        
+}
